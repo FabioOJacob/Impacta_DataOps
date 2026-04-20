@@ -2,6 +2,8 @@ from flask import Flask
 import socket
 
 app = Flask(__name__)
+# teste de commit e nova branch
+
 
 
 @app.route("/")
@@ -12,5 +14,5 @@ def index():
     return f"Hostname: {hostname}<br>IP Address: {ip_address}"
 
 
-if __name__ == "__main__":
+if __name__ ==  '__main__':
     app.run(host="0.0.0.0", port=5000)
